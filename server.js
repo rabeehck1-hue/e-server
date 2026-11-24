@@ -16,7 +16,7 @@ app.use(express.json())
 
 //connect server to frontend
 
-app.use(cors({ origin: "http://localhost:5173", credentials:true }))
+app.use(cors({ origin: "https://e-commerce23-kappa.vercel.app", credentials:true }))
 
 // to access cookies
 app.use(cookieParser())
